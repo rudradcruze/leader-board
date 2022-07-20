@@ -20,6 +20,61 @@ body {
     font-family: 'Poppins', sans-serif
 }
 
+/* Header Nav */
+
+.nav-bar {
+	height: 94px;
+	width: 100%;
+	background: #562EFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-wrapper .logo-section img {
+    width: 40.42px;
+    height: 51px;
+}
+
+.nav-wrapper .logo-section {
+    display: flex;
+}
+
+.nav-wrapper .logo-section h2 {
+    padding-left: 15px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #fff;
+
+}
+
+nav {
+	display: flex;
+	align-items: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 36px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+nav ul li a {
+    color: #fff;
+}
+
+nav img {
+    cursor: pointer;
+}
+
 /* Top player and blog section */
 
 /* Top Player Section */
